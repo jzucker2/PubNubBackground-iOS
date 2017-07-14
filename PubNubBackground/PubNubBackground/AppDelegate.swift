@@ -44,7 +44,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
         print("\(#function)")
         // MARK: - Edit here
-        // If you comment this line out, heartbeats will continue in the background.
+        // If you comment this line out, heartbeats will not continue in the background.
         self.client?.unsubscribeFromAll()
     }
 
